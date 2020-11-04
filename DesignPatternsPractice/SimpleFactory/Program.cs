@@ -14,8 +14,11 @@ namespace SimpleFactory
                 string strOperate = Console.ReadLine();
                 Console.WriteLine("請輸入數字B");
                 string strNumB = Console.ReadLine();
-                string result = Convert.ToString(Operation.GetResult(Convert.ToDouble(strNumA), Convert.ToDouble(strNumB), strOperate));
-                Console.WriteLine("結果是:" + result);
+
+                var oper = OperationFactory.CreateOperation(strOperate);
+                oper.numA = Convert.ToDouble(strNumA);
+                oper.numB = Convert.ToDouble(strNumB);
+                Console.WriteLine("結果是:" + oper.GetResult());
                 Console.ReadLine();
             }
             catch (Exception ex)

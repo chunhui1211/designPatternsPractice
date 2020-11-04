@@ -4,13 +4,12 @@ using System.Text;
 
 namespace SimpleFactory
 {
-    public class Operation
+    public class OperationMul :Operation
     {
-        public double numA { get; set; }
-        public double numB { get; set; }
-        public virtual double GetResult()
+        public override double GetResult()
         {
             double result = 0;
+            result = numA * numB;
             return result;
         }
     }
