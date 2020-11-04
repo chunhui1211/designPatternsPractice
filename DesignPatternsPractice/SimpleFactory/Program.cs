@@ -14,30 +14,7 @@ namespace SimpleFactory
                 string strOperate = Console.ReadLine();
                 Console.WriteLine("請輸入數字B");
                 string strNumB = Console.ReadLine();
-                string result = string.Empty;
-
-                switch (strOperate)
-                {
-                    case "+":
-                        result = Convert.ToString(Convert.ToDouble(strNumA) + Convert.ToDouble(strNumB));
-                        break;
-                    case "-":
-                        result = Convert.ToString(Convert.ToDouble(strNumA) - Convert.ToDouble(strNumB));
-                        break;
-                    case "*":
-                        result = Convert.ToString(Convert.ToDouble(strNumA) * Convert.ToDouble(strNumB));
-                        break;
-                    case "/":
-                        if (strNumB != "0")
-                        {
-                            result = Convert.ToString(Convert.ToDouble(strNumA) / Convert.ToDouble(strNumB));
-                        }
-                        else
-                        {
-                            result = "除數不能為0";
-                        }
-                        break;
-                }
+                string result = Convert.ToString(Operation.GetResult(Convert.ToDouble(strNumA), Convert.ToDouble(strNumB), strOperate));
                 Console.WriteLine("結果是:" + result);
                 Console.ReadLine();
             }
