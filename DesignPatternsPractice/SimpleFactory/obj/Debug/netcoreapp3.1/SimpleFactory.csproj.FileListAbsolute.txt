@@ -1,0 +1,13 @@
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\bin\Debug\netcoreapp3.1\SimpleFactory.exe
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\bin\Debug\netcoreapp3.1\SimpleFactory.deps.json
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\bin\Debug\netcoreapp3.1\SimpleFactory.runtimeconfig.json
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\bin\Debug\netcoreapp3.1\SimpleFactory.runtimeconfig.dev.json
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\bin\Debug\netcoreapp3.1\SimpleFactory.dll
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\bin\Debug\netcoreapp3.1\SimpleFactory.pdb
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\obj\Debug\netcoreapp3.1\SimpleFactory.csprojAssemblyReference.cache
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\obj\Debug\netcoreapp3.1\SimpleFactory.csproj.CoreCompileInputs.cache
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\obj\Debug\netcoreapp3.1\SimpleFactory.AssemblyInfoInputs.cache
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\obj\Debug\netcoreapp3.1\SimpleFactory.AssemblyInfo.cs
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\obj\Debug\netcoreapp3.1\SimpleFactory.dll
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\obj\Debug\netcoreapp3.1\SimpleFactory.pdb
+D:\Repo\designPatternsPractice\DesignPatternsPractice\SimpleFactory\obj\Debug\netcoreapp3.1\SimpleFactory.genruntimeconfig.cache
