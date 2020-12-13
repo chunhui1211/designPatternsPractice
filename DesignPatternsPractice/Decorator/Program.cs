@@ -17,6 +17,7 @@ namespace Decorator
 
             //範例
             Person xc = new Person("小菜");
+            Console.WriteLine("第一種裝扮");
             var kk = new BigTrouser();
             var dtx = new TShirts();
             kk.Decorate(xc);
